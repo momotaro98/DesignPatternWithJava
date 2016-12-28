@@ -1,7 +1,7 @@
 # DesignPatternWithJava
 [Java言語で学ぶデザインパターン](https://www.amazon.co.jp/Java/dp/4797327030/ref=tmm_other_meta_binding_swatch_0?_encoding=UTF8&qid=1482915959&sr=8-1)  
 と、  
-[https://github.com/OmarElGabry/DesignPatterns](https://github.com/OmarElGabry/DesignPatterns)
+[https://github.com/OmarElGabry/DesignPatterns](https://github.com/OmarElGabry/DesignPatterns)  
 の2つ教材を使ったデザインパターンの学習ログ用レポジトリ
 
 ## デザインパターンを学ぶにあたって
