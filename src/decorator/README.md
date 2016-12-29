@@ -33,16 +33,16 @@ Total Cost: 32.9
 
 ## Decoratorパターンの登場人物
 #### Componentの役
-機能を追加するときの核となる役。Component役は核におけるインターフェース(API)だけを定める。サンプルプログラムでは`MenuItem`がこの役をつとめた。
+機能を追加するときの核となる役。Component役は核におけるインターフェース(API)だけを定める。サンプルプログラムでは`MenuItem`がこの役をつとめている
 
 #### ConcreteComponentの役
-Component役のインターフェースを実装している具体的な中身。サンプルプログラムでは、`HotChocolate`, `Espresso`がこの役をつとめた
+Component役のインターフェースを実装している具体的な中身。サンプルプログラムでは、`HotChocolate`, `Espresso`がこの役をつとめている
 
 #### Decorator(装飾者)の役
-Component役と同じインターフェースを持つ。そしてさらに、このDecorator役が飾る対象となるComponent役をもっている。この役は、自分が飾っている対象を委譲という形で「知っている」。サンプルプログラムでは、`Decorator`がこの役をつとめた
+Component役と同じインターフェースを持つ。そしてさらに、このDecorator役が飾る対象となるComponent役をもっている。この役は、自分が飾っている対象を委譲という形で「知っている」。サンプルプログラムでは、`Decorator`がこの役をつとめている
 
 #### ConcreteDecorator(具体的な装飾者)の役
-具体的なDecoratorの役。サンプルプログラムでは、`Milk`と`Mocha`がこの役をつとめた
+具体的なDecoratorの役。サンプルプログラムでは、`Milk`と`Mocha`がこの役をつとめている
 
 
 ## 考えを広げるためのヒント

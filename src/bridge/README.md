@@ -49,16 +49,16 @@ Red
 
 ## Bridgeパターンの登場人物
 ### Abstraction(抽象化)の役
-「機能のクラス階層」の最上位のクラス。Implementor役のメソッドを使って基本的な機能だけが記述されているクラス。このインスタンスは、Implementor役を保持する。サンプルプログラムでは、`AbstractShape`がこの役をつとめた。  
+「機能のクラス階層」の最上位のクラス。Implementor役のメソッドを使って基本的な機能だけが記述されているクラス。このインスタンスは、Implementor役を保持する。サンプルプログラムでは、`AbstractShape`がこの役をつとめている。  
 
 ### RefinedAbstraction(改善した抽象化)の役
-Abstraction役に対して機能を追加した役。サンプルプログラムでは、`Rectangle`, `Circle`がこの役をつとめた。  
+Abstraction役に対して機能を追加した役。サンプルプログラムでは、`Rectangle`, `Circle`がこの役をつとめている。  
 
 ### Implementor(実装者)の役
-「実装クラス階層」の最上位。Abstraction役のインターフェース(API)を実装するためのメソッドを規定する役。サンプルプログラムでは、`Color`がこの役をつとめた。  
+「実装クラス階層」の最上位。Abstraction役のインターフェース(API)を実装するためのメソッドを規定する役。サンプルプログラムでは、`Color`がこの役をつとめている。  
 
 ### ConcreteImplementor(具体的な実装者)の役
-サンプルプログラムでは、`Red`, `Blue`がこの役をつとめた。  
+サンプルプログラムでは、`Red`, `Blue`がこの役をつとめている。  
 
 
 ## 考えを広げるためのヒント
